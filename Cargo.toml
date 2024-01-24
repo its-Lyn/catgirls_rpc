@@ -6,3 +6,9 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+reqwest = { version = "0.11.23", features = ["json"] }
+tokio = { version = "1.35.1", features = ["full"] }
+serde = { version = "1.0.159" , features = ["derive"] }
+serde_json = "1.0.111"
+discord-rich-presence = "0.2.3"
+chrono = "0.4"
