@@ -83,3 +83,6 @@ Now, give it a name and press create!
 
 You should now be put on this page, simply scroll down untill you see `APPLICATION ID` and then press `Copy`!
 ![Get App ID](./assets/Tutorial/tutorial_id.png)
+
+## License
+MIT
