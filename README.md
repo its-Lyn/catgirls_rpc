@@ -75,14 +75,15 @@ Don't have an application you can use? Create a new one! It's simple!
 
 First, open the [discord developer portal](https://discord.com/developers/applications), Log in with your discord account, if it prompts you to!
 
-Then, create a new app!
+Then, create a new app! <br>
 ![Create an app](./assets/Tutorial/tutorial_create.png)
 
-Now, give it a name and press create!
+Now, give it a name and press create! <br>
 ![Name App](./assets/Tutorial/tutorial_name.png)
 
-You should now be put on this page, simply scroll down untill you see `APPLICATION ID` and then press `Copy`!
+You should now be put on this page, simply scroll down untill you see `APPLICATION ID` and then press `Copy`! <br>
 ![Get App ID](./assets/Tutorial/tutorial_id.png)
 
 ## License
 MIT
+z
