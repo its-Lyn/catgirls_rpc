@@ -46,9 +46,10 @@ cd catgirl_rpc
 ```
 
 Now, you can use the Makefile to build the project. This doesn't rely on any init system.
+NOTE: Do not use sudo for this.
 
 ```bash
-sudo make build
+make build
 ```
 
 After it's done, you can install it by:
@@ -66,7 +67,7 @@ Now, open a text editor and open the configuration file, it is located in `~/.co
 
 ```json
 {
-    "app_id": "your_id"
+    "application_id": "your_id"
 }
 ```
 
@@ -86,4 +87,3 @@ You should now be put on this page, simply scroll down untill you see `APPLICATI
 
 ## License
 MIT
-z

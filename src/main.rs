@@ -6,8 +6,13 @@ mod config;
 
 #[tokio::main]
 async fn main() {
-    // TODO: Add a config option to fetch ID
-    let mut neko_client = DiscordNeko::new("-").expect("Failed to create Discord Client");
+    // Create config files if they don't already exist
+    config::create::initialise().expect("Failed to initialize config");
+
+    // Load config
+    let config = config::load::get().expect("Failed to load config");
+
+    let mut neko_client = DiscordNeko::new(&config.application_id).expect("Failed to create Discord Client");
     neko_client.initialise().await.expect("Failed to initialise Discord Client");
 
     let mut nekos_found = 0;
