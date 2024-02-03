@@ -1,0 +1,11 @@
+[Unit]
+Description=Catgirl RPC app
+PartOf=graphical-session.target
+
+[Service]
+ExecStart=/usr/local/bin/catgirl_rpc
+Restart=always
+RestartSec=15
+
+[Install]
+WantedBy=default.target
